@@ -12,8 +12,6 @@
     <div class="top-bar-left">
         <ul class="menu">
             <li><a href="/Home">Home</a></li>
-            <!-- ici j'ai retiré class="menu-text" dans la balise <li>, 
-            j'ai pas su comment implémenté ça -->
             <li><a href="/Articles">Articles</a></li>
             <li><a href="/Contact">Contact</a></li>
         </ul>
@@ -22,8 +20,8 @@
 
 <div class="callout large primary">
     <div class="row column text-center">
-        <h1>Our Blog</h1>
-        <h2 class="subheader">Such a Simple Blog Layout</h2>
+        <h1>Projet Laravel</h1>
+        <h2 class="subheader">version développeurs modestes</h2>
     </div>
 </div>
 

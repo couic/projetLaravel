@@ -1,7 +1,7 @@
 @extends('layouts/main')
 
 @section('content')
-
+<h1>Accueil</h1>
 <ul>
 @foreach ( $posts as $post )
     <?php 
