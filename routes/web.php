@@ -1,4 +1,5 @@
 <?php
+use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -11,9 +12,11 @@
 |
 */
 
-// l'index renvoie au contrôleur de la page d'accueil
 Route::get('/', 'HomeController@index');
 Route::get('/Home', 'HomeController@index');
 Route::get('/Articles', 'ArticlesController@index');
 Route::get('/articles/{post_name}', 'ArticlesController@show');
 Route::get('/Contact', 'ContactController@index');
+
+Route::get('contact', 'ContactController@create');
+Route::post('contact', 'ContactController@store');

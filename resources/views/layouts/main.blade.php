@@ -12,6 +12,8 @@
     <div class="top-bar-left">
         <ul class="menu">
             <li><a href="/Home">Home</a></li>
+            <!-- ici j'ai retiré class="menu-text" dans la balise <li>, 
+            j'ai pas su comment implémenté ça -->
             <li><a href="/Articles">Articles</a></li>
             <li><a href="/Contact">Contact</a></li>
         </ul>
