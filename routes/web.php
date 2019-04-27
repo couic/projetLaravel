@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// l'index renvoie au contrôleur de la page d'accueil
+Route::get('/', 'HomeController@index');
