@@ -13,3 +13,7 @@
 
 // l'index renvoie au contrôleur de la page d'accueil
 Route::get('/', 'HomeController@index');
+Route::get('/Home', 'HomeController@index');
+// idem
+Route::get('/Articles', 'ArticlesController@index');
+Route::get('/Contact', 'ContactController@index');
